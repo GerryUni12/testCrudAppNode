@@ -34,3 +34,5 @@ npm libabries Used
 -Q
 -OpenApi
 
+No Error Handling on HTML Pages for email, Password missing or weak.
+
