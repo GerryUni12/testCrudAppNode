@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+  head
+  meta(charset="utf-8")
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+  title Gerrys Dockerized CRUD Node.js Web App
+  link(rel="stylesheet" href="/css/style.css")   
+  script(src='/js/main.js')  
+
+  body(onload='getTime()')
+    style.
+      body {
+        background-image: url('/images/background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    .userDashBoard
+      .box-3
+        .dash-content-holder
+          p Welcome Back, #{message} :)
+          br
+          p.dashTimeDate <time/Date>   
+        
+      .box-4
+        .userDashRightContainer
+            button.dashboardButton(type='submit') Option0
+            button.dashboardButton(type='submit') Option1
+            button.dashboardButton(type='submit') Option2
+            button.dashboardButton(type='submit') Option3
+            button.dashboardButton(type='submit') Option4
+            button.dashboardButton(type='submit') Option5

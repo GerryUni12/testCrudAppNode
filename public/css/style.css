@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
+
+*{
+  margin: 0px;
+  padding: 0px;;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+
+
+.container
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: white;
+  width: 800px;
+  height: 400px;
+  margin: 10% auto 10% auto;
+  border-radius: 5px;
+}
+
+.userDashBoard
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgba(255,255,255,0.7);
+  width: 85%;
+  height: 80vh;
+  margin: 1% auto 1% auto;
+  border-radius: 5px;
+}
+
+.content-holder {
+	background-color: white;
+	text-align: center;
+	color: black;
+	font-size: 14px;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	margin-top: 45%;
+	margin-left: 35%;
+}
+
+.dash-content-holder {
+
+	text-align: center;
+	color: black;
+	font-size: 150%;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin-top: 45%;
+	margin-left: 35%;
+}
+
+.content-holder h2
+{
+  font-size: 34px;
+  margin: 20px auto;
+}
+
+.content-holder p
+{
+  margin: 30px auto;
+}
+
+.content-holder button
+{
+  border:1px solid black;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: white;
+  width: 150px;
+  margin: 20px auto;
+}
+
+
+.box-2{
+  background-color: white;
+
+  margin: 40px;
+}
+
+
+
+.login-form-container
+{
+  text-align: center;
+  margin-top: 10%;
+
+}
+
+.userDashRightContainer
+{
+  text-align: center;
+  padding-top:23vh;
+
+}
+
+.login-form-container h1
+{
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.input-field
+{
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid rgb(168, 168, 168);
+  width: 250px;
+  outline: none;
+}
+
+.login-button{
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  outline: none;
+  background-color: rgb(255,0,0);
+  margin-top:5px;
+}
+
+.dashboardButton {
+	box-sizing: border-box;
+	color: black;
+	font-size: 110%;
+	padding: 35px;
+	border-radius: 7px;
+	border: none;
+	width: 13%;
+	outline: none;
+	background-color: rgba(32,110,159,0.3);
+	margin: 0px 6% 3% 6.1%;
+}
+
+.button-2
+{
+  display: none;
+}
+
+.signup-form-container
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+  text-align: center;
+  display: none;
+}
+
+
+.signup-form-container h1
+{
+  color: black;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.signup-button{
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  padding: 13px;
+  border-radius: 7px;
+  border: none;
+  width: 250px;
+  outline: none;
+  background-color: rgb(255,0,0);  
+}
