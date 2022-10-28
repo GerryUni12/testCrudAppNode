@@ -5,14 +5,14 @@ const options = {
     definition: {
         openapi: "3.0.0",
         info: {
-            title: "Nodejs Rest CRUD API with Swagger",
+            title: "Nodejs Rest CRUD API includingSwagger UI",
             version: "0.1.0",
             description:
-                "This is a sample Rest CRUD API project using Node.js, Express, Pug, MongoDb, Swagger, Mocha & Chai for testing",
+                "see Readme Github",
             license: "",
             contact: {
-                name: "Burak Ergoren",
-                url: "https://www.linkedin.com/in/burakergoren/"
+                name: "Gerry",
+                url: ""
             },
         },
         servers: [
