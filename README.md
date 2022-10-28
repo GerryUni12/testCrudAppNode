@@ -1,3 +1,36 @@
 # testCrudAppNode
 
 Dockerized CRUD Node.js Web App & Unit Tests
+
+- Clone Repo
+- Navigate to Directory
+- npm install
+- node server.js
+------------------------------
+Return: -> Server Started On.. http://localhost:3000
+Database connection established!
+
+Sign Up
+
+Login 
+
+Password Hash is displayed to console
+
+
+-------------------------------
+
+npm libabries Used
+
+-Node.js
+-Express / Expression-Session
+-Pug
+-MongoDB
+-Mocha
+-Chaie
+-Passport.js / Passport-Local
+-Swagger
+-Docker
+-Bcrypt
+-Q
+-OpenApi
+
