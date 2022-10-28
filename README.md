@@ -7,7 +7,9 @@ Dockerized CRUD Node.js Web App & Unit Tests
 - npm install
 - node server.js
 ------------------------------
-Return: -> Server Started On.. http://localhost:3000
+Return: -> 
+Server Started On... http://localhost:3000
+http://localhost:3000/api-docs/ - for all get GET, POST, PUT, DELETE Requests
 Database connection established!
 
 Sign Up
